@@ -1,0 +1,158 @@
+// Unified site navigation
+// On landing page: starts at bottom of hero, sticks to top on scroll
+// On inner pages: always at top in "stuck" appearance
+// Nav links are always centered; logo is absolutely positioned
+
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: $nav-height;
+    transition: background 0.4s ease, border-color 0.4s ease;
+
+    .nav-inner {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .nav-logo {
+        position: absolute;
+        left: 0;
+        display: flex;
+        align-items: center;
+        gap: $space-2;
+        text-decoration: none;
+        transition: opacity 0.4s ease;
+
+        &:hover { text-decoration: none; }
+
+        .nav-logo-icon {
+            height: 34px;
+            width: auto;
+            opacity: 0.5;
+        }
+
+        .nav-logo-text {
+            font-size: $text-xl;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+            line-height: 1;
+
+            .honey { color: $color-honey; }
+            .lab   { color: $color-lab; }
+        }
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 3.25rem;
+        align-items: center;
+
+        a {
+            font-weight: 500;
+            font-size: $text-lg;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: $space-2 0;
+            position: relative;
+            transition: color 0.25s ease, text-shadow 0.25s ease;
+
+            &:hover {
+                color: $color-accent;
+                text-decoration: none;
+                text-shadow: 0 0 0.5px $color-accent, 0 0 0.5px $color-accent;
+            }
+
+            &.active {
+                color: $color-accent;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -2px;
+                    left: 0;
+                    right: 0;
+                    height: 2px;
+                    background: $color-accent;
+                }
+            }
+        }
+    }
+
+    .nav-check {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: none;
+        position: absolute;
+        right: 0;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 24px;
+        height: 18px;
+        cursor: pointer;
+        padding: 0;
+
+        span {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background: $color-text-light;
+            border-radius: 1px;
+            transition: $transition;
+        }
+    }
+}
+
+
+// ---- Inner pages: always "stuck" appearance ----
+
+body:not(.landing-page) .site-nav {
+    background: $color-background;
+    border-bottom: 1px solid $color-border;
+
+    .nav-links a {
+        color: $color-text-muted;
+    }
+}
+
+
+// ---- Landing page nav states ----
+
+.landing-page .site-nav {
+    background: transparent;
+    border-bottom: 1px solid transparent;
+
+    .nav-logo {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .nav-links a {
+        color: $color-lab;
+    }
+
+    // Stuck state: white bg, logo fades in — links stay in place
+    &.stuck {
+        background: $color-background;
+        border-bottom: 1px solid $color-border;
+
+        .nav-logo {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .nav-links a {
+            color: $color-text-muted;
+            text-shadow: none;
+        }
+    }
+}
+
+
+// Mobile nav styles are in _responsive.scss

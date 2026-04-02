@@ -1,0 +1,341 @@
+# Current Lab Members
+- name: Christopher Honey
+  role: Principal Investigator
+  group: pi
+  photo: chris-honey-1.png
+  photo_alt: chris-honey-2.png
+  photo_position: "center 20%"
+  neurotree: https://neurotree.org/neurotree/peopleinfo.php?pid=25487
+  active: true
+
+- name: Rolando Masis-Obando
+  role: Postdoctoral Research Fellow
+  group: postdoc
+  photo: rolando-masis.png
+  focus: schemas & contexts, memory enhancement, neurofeedback, virtual/augmented reality
+  active: true
+
+- name: Xian Li
+  role: Graduate Student
+  group: grad
+  photo: xian-li.png
+  focus: storage, retrieval, and maintenance of context in humans & machines
+  website: http://www.xian-li.com
+  active: true
+
+- name: Gabriel Kressin Palacios
+  role: Graduate Student
+  group: grad
+  photo: gabriel-kp-1.jpg
+  photo_alt:
+    - gabriel-kp-2.jpg
+    - gabriel-kp-3.jpg
+    - gabriel-kp-4.jpg
+    - gabriel-kp-5.jpg
+    - gabriel-kp-6.jpg
+    - gabriel-kp-7.jpg
+    - gabriel-kp-8.jpg
+    - gabriel-kp-9.jpg
+  focus: narrative & world representation, learning and memory, neural language models
+  website: https://gabrielkp.com/
+  active: true
+
+- name: Gio Li
+  role: Graduate Student
+  group: grad
+  photo: gio-li.jpg
+  focus: event representation, thought representation, neural language models
+  email: zli230@jhu.edu
+  active: true
+
+- name: Evelyn Allen
+  role: Graduate Student
+  group: grad
+  active: true
+
+- name: Flory Huang
+  role: Graduate Student
+  group: grad
+  photo: flory-huang.jpg
+  active: true
+
+- name: Quinton Covington
+  role: Lab Manager
+  group: staff
+  photo: quinton-1.jpg
+  photo_alt: quinton-2.jpg
+  photo_position: "center 20%"
+  active: true
+
+- name: Jane Chen
+  role: Undergraduate Research Assistant
+  group: undergrad
+  photo: jane-chen.png
+  active: true
+
+- name: Dhruva Arekar
+  role: Undergraduate Research Assistant
+  group: undergrad
+  photo: dhruva-arekar.jpg
+  active: true
+
+- name: Yijun Lai
+  role: Research Assistant
+  group: undergrad
+  photo: yijun-lai.jpeg
+  photo_position: "center 20%"
+  active: true
+
+# Alumni (sorted by start year, most recent first)
+- name: Tianshu (Anya) Ouyang
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2024-25"
+  now: Graduate student at Caltech
+  website: https://www.linkedin.com/in/anya-ouyang-b271342b1/
+  active: false
+
+- name: Kahlyn Eckles
+  role: Lab Manager
+  group: staff
+  photo: kahlyn-eckles.jpg
+  years: "2023-25"
+  now: Graduate student at the University of Oregon
+  active: false
+
+- name: Clara Kim
+  role: Undergraduate Research Assistant
+  group: undergrad
+  photo: clara-kim.jpg
+  years: "2023-25"
+  now: AI Engineer at MicroStrategy
+  active: false
+
+- name: Kristijan Armeni
+  role: Postdoctoral Research Fellow
+  group: postdoc
+  years: "2022-25"
+  now: Developer and Data Scientist at CIB Mango Tree
+  website: https://www.kristijanarmeni.net
+  active: false
+
+- name: Madeline Cheshire
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2021-23"
+  now: MD Candidate at Icahn School of Medicine at Mount Sinai
+  website: https://www.linkedin.com/in/madeline-cheshire-baa757174/
+  active: false
+
+- name: Natalie Wang
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2020-22"
+  active: false
+
+- name: Hannah Collins-Doijode
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2020-22"
+  now: MD student at the University of Hawaii
+  website: https://www.linkedin.com/in/hannah-collins-doijode-253696167/
+  active: false
+
+- name: Savannah Born
+  role: Lab Manager
+  group: staff
+  years: "2019-23"
+  now: Psychology graduate student at Washington University, St. Louis.
+  active: false
+
+- name: Hirak Park
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2019"
+  website: https://www.linkedin.com/in/hrkpark/
+  active: false
+
+- name: Jinhan Zhang
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2019"
+  now: AI PhD student at Hong Kong University of Science and Technology
+  website: https://www.linkedin.com/in/jinhan-zhang-a66134186/
+  active: false
+
+- name: Shima Rahimi Moghaddam
+  role: Graduate Student
+  group: grad
+  years: "2018-23"
+  now: AI Engineer at IBM
+  website: https://www.linkedin.com/in/shima-r-m/
+  active: false
+
+- name: Tyler Tomita
+  role: Postdoctoral Research Fellow
+  group: postdoc
+  years: "2018-23"
+  now: Machine learning researcher at the Applied Physics Lab
+  active: false
+
+- name: Joon-Young Moon
+  role: Assistant Research Scientist
+  group: postdoc
+  years: "2018-22"
+  now: "Young Scientist Fellow and Principal Investigator at Sunkyunkwan University in South Korea"
+  website: https://moonbrainlab.org/
+  active: false
+
+- name: Buddhika Bellana
+  role: Postdoctoral Research Fellow
+  group: postdoc
+  years: "2018-21"
+  now: Associate Professor at York University
+  website: https://www.bellanalab.com/
+  active: false
+
+- name: Fanjun (Frank) Bu
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2018"
+  now: CS PhD student at Cornell
+  website: https://www.linkedin.com/in/frank-bu/
+  active: false
+
+- name: Eduardo Sandoval
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2018"
+  now: Neuroscience PhD student at UC Berkeley
+  website: https://www.linkedin.com/in/eduardo-sandoval-61092a175/
+  active: false
+
+- name: Zoey Zuo
+  role: Lab Manager
+  group: staff
+  years: "2017-19"
+  now: Licensed clinical psychologist
+  active: false
+
+- name: Liangzhi Li
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2017"
+  now: MS student at NYU Center for Data Science
+  website: https://www.linkedin.com/in/liangzhi-li/
+  active: false
+
+- name: Kevin Himberger
+  role: Graduate Student
+  group: grad
+  years: "2016-21"
+  now: Data Engineer at Justice Innovation Lab.
+  active: false
+
+- name: Hsiang-Yun Sherry Chien
+  role: Graduate Student
+  group: grad
+  years: "2016-21"
+  now: ML Scientist at Apple
+  website: https://www.linkedin.com/in/hsiang-yun-sherry-chien/
+  active: false
+
+- name: Josephine Chan
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2015-16"
+  active: false
+
+- name: Esther Yong
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2015-16"
+  now: Occupational Therapist at Oak Valley Health
+  website: https://www.linkedin.com/in/esther-y-98374a13a/
+  active: false
+
+- name: Aliya Babul
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2015"
+  active: false
+
+- name: Kasra Koushan
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2015"
+  now: Software Engineer at January
+  website: https://kasra.io/
+  active: false
+
+- name: "Kathrin Müsch"
+  role: Postdoctoral Research Fellow
+  group: postdoc
+  years: "2014-18"
+  now: Quality Manager at Magnes AG, Zurich
+  website: https://www.linkedin.com/in/kmuesch/
+  active: false
+
+- name: David Groppe
+  role: Research Associate
+  group: postdoc
+  years: "2014-17"
+  now: Clinical Data Scientist at Persyst
+  website: https://www.linkedin.com/in/david-groppe-1105bb19/
+  active: false
+
+- name: Helen Liu
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-16"
+  now: Senior Associate at Abingworth
+  website: https://www.abingworth.com/team/helen-liu
+  active: false
+
+- name: Davide Crombie
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-16"
+  now: Postdoctoral researcher at Champalimaud Institute (Mainen Lab)
+  website: https://scholar.google.com/citations?hl=en&user=q8-NrK4AAAAJ
+  active: false
+
+- name: Mansi Patel
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-15"
+  now: Occupational Therapist at William Osler Health System
+  website: https://www.linkedin.com/in/mansi-patel-5a8a6a69/
+  active: false
+
+- name: Saba Shahab
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-15"
+  now: Cardiology Fellow at McMaster University
+  website: https://www.linkedin.com/in/saba-shahab/
+  active: false
+
+- name: Samira Azimi
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-15"
+  now: Pharmaceutical policy and regulation at Roche
+  website: https://www.linkedin.com/in/samira-azimi-pharmacist/
+  active: false
+
+- name: Shahin Khodaei
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-15"
+  now: Freelance science writer
+  website: https://www.linkedin.com/in/shahin-khodaei/
+  active: false
+
+- name: Eve Zheng
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-15"
+  now: Marriage and Family Therapist
+  website: https://www.linkedin.com/in/eve-yiran-zheng-mft/
+  active: false

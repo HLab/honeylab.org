@@ -1,0 +1,36 @@
+# Datasets
+- name: "Narratives: fMRI Data for Naturalistic Language Comprehension"
+  type: dataset
+  url: https://github.com/snastase/narratives
+  description: Multi-story fMRI dataset for benchmarking models of naturalistic language comprehension.
+  paper: "Nastase et al. (2021) Scientific Data"
+
+- name: "Narrative Thinking: Code and Data"
+  type: dataset
+  url: https://osf.io/dmbx4/
+  description: Analysis code and fMRI data examining how narrative thinking persists into spontaneous thought.
+  paper: "Bellana, Mahabal & Honey (2022) Nature Communications"
+
+- name: "Autobiographical Memory Similarity: Narratives and Annotations"
+  type: dataset
+  url: https://github.com/HLab/AutobioMemorySimilarity
+  description: De-identified memory narratives, pairwise similarity annotations, and demographic/SAM data from two participant groups.
+  paper: "Tomita, Barense & Honey (2021) bioRxiv"
+
+- name: "Spontaneous Thought: Think-Aloud Behavioral Data"
+  type: dataset
+  url: https://osf.io/a56rm/
+  description: Behavioral data from a think-aloud paradigm measuring spontaneous memory recall and future thinking. From the Lee Lab (Purdue University).
+  paper: "Su et al. (2025) Nature Communications"
+
+- name: Boosting Theory-of-Mind in LLMs with Prompting
+  type: dataset
+  url: https://github.com/shrahimim/Boosting-Theory-of-Mind-in-LLMs-with-Prompting
+  description: Prompts, task stimuli, and LLM responses for testing Theory-of-Mind reasoning in large language models.
+  paper: "Rahimi Moghaddam & Honey (2023) arXiv"
+
+- name: "iELVis: Intracranial Electrode Visualization"
+  type: tool
+  url: http://www.biorxiv.org/content/early/2016/08/11/069179
+  description: Open-source MATLAB toolbox for localizing and visualizing human intracranial electrode data.
+  paper: "Groppe et al. (2017) Journal of Neuroscience Methods"

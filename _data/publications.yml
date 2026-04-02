@@ -1,0 +1,826 @@
+- authors: Park Y, Cha Y, Kim H, Kim Y, Woo JH, Cho H, Mashour GA, Xu T, Lee U, Hong SJ, Honey CJ, Moon JY
+  year: '2025'
+  status: preprint
+  title: Sub-second fluctuation between top-down and bottom-up modes distinguishes diverse human brain states
+  tags: [networks]
+  links:
+  - text: bioRxiv
+    url: https://www.biorxiv.org/content/10.1101/2025.03.12.642768v3.abstract
+  - text: PDF
+    url: pdfs/park_etal_moon_preprint_2025.pdf
+- authors: Tomita TM, Barense MD, Honey CJ
+  year: '2021'
+  status: preprint
+  title: The Similarity Structure of Real-World Memories
+  journal: bioRxiv
+  volume: 2021.01.28.428278
+  tags: [memory-aging]
+  links:
+  - text: bioRxiv
+    url: https://www.biorxiv.org/content/10.1101/2021.01.28.428278v1
+  - text: PDF
+    url: pdfs/Similarity-Structure-of-Real-World-Memories_Tomita-2021.pdf
+- authors: Su H, Li X, Born S, Honey CJ, Chen J, Lee H
+  year: '2025'
+  title: Neural dynamics of spontaneous memory recall and future thinking in the continuous flow of thoughts
+  journal: Nature Communications
+  volume: 16(1):6433
+  tags: [momentum, memory-aging]
+  links:
+  - text: journal
+    url: https://www.nature.com/articles/s41467-025-61807-w
+  - text: PDF
+    url: pdfs/su_etal_lee_natcomms_2025.pdf
+- authors: Moon J-Y, Müsch K, Schroeder CE, Valiante TA, Honey CJ
+  year: '2022'
+  status: preprint
+  title: Inter-regional delays fluctuate in the human cerebral cortex
+  journal: eLife
+  tags: [networks]
+  links:
+  - text: bioRxiv
+    url: https://www.biorxiv.org/content/10.1101/2022.06.01.494224v1.abstract
+  - text: PDF
+    url: pdfs/moon_etal_preprint_2022.pdf
+- authors: Poldrack et al
+  year: '2024'
+  title: The Past, Present, and Future of the Brain Imaging Data Structure (BIDS)
+  journal: Imaging Neuroscience
+  volume: 2:1-19
+  tags: [methods]
+  links:
+  - text: journal
+    url: https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00103/119672
+  - text: PDF
+    url: pdfs/poldrack_etal_BIDS_2024.pdf
+- authors: Rahimi Moghaddam S, Honey CJ
+  year: '2023'
+  title: Boosting Theory-of-Mind Performance in Large Language Models via Prompting
+  journal: arXiv
+  volume: '2304.11490'
+  tags: [minds-machines]
+  links:
+  - text: arXiv
+    url: https://arxiv.org/abs/2304.11490
+  - text: PDF
+    url: pdfs/moghaddam_honey_arXiv_April2023.pdf
+  - text: data
+    url: https://github.com/shrahimim/Boosting-Theory-of-Mind-in-LLMs-with-Prompting
+- authors: Honey CJ, Mahabal A, Bellana B
+  year: '2023'
+  title: Psychological Momentum
+  journal: Current Directions in Psychological Sciences
+  volume: '32(4): 1-9'
+  tags: [momentum]
+  links:
+  - text: journal
+    url: https://journals.sagepub.com/doi/10.1177/09637214221143053
+  - text: PDF
+    url: pdfs/honey_mahabal_bellana_currdirpsychsci_2023.pdf
+- authors: Martin CB, Hong B, Newsome RN, Savel K, Meade M, Xia A, Honey CJ, Barense M
+  year: '2022'
+  title: A smartphone intervention that enhances real-world memory and promotes differentiation of hippocampal activity in older adults
+  journal: Proceedings of the National Academy of Sciences, USA
+  volume: 119(51), e2214285119
+  tags: [memory-aging]
+  links:
+  - text: PsyArXiv
+    url: https://psyarxiv.com/2fwup/
+  - text: journal
+    url: https://www.pnas.org/doi/abs/10.1073/pnas.2214285119
+  - text: PDF
+    url: pdfs/martin_et_al_hippocamera_preprint.pdf
+- authors: Armeni K, Honey CJ, Linzen T
+  year: '2022'
+  title: Short-term memory in neural language models
+  journal: Conference on Natural Language Learning (CoNLL)
+  tags: [minds-machines]
+  links:
+  - text: arXiv
+    url: https://arxiv.org/abs/2210.13569
+  - text: PDF
+    url: pdfs/armeni_honey_linzen_arxiv_2210.13569.pdf
+- authors: Honey CJ, Chen J
+  year: '2022'
+  title: Translation Across Brains and Across Time
+  journal: 'Translation: Crafts, Contexts, Consequences (Steyn J, ed.)'
+  volume: 'Cambridge University Press'
+  links:
+  - text: publisher
+    url: https://www.cambridge.org/core/books/translation/E43CB4B290597EB0A1A82B4F98F8D62C
+- authors: Bellana B, Mahabal A, Honey CJ
+  year: '2022'
+  title: Narrative thinking lingers in spontaneous thought
+  journal: Nature Communications
+  volume: '13: 4585'
+  tags: [momentum]
+  links:
+  - text: journal
+    url: https://www.nature.com/articles/s41467-022-32113-6
+  - text: PDF
+    url: pdfs/bellana_mahabal_honey_natcomms_2022.pdf
+  - text: preprint
+    url: https://psyarxiv.com/gxzyj/
+  - text: code and data
+    url: https://osf.io/dmbx4/
+- authors: Dima DC, Tomita T, Honey CJ, Isik L
+  year: '2022'
+  title: Social-affective features drive human representations of observed actions
+  journal: eLife
+  volume: 11:e75027
+  links:
+  - text: bioRxiv
+    url: https://www.biorxiv.org/content/10.1101/2021.10.25.465740v1.abstract
+  - text: journal
+    url: https://elifesciences.org/articles/75027
+  - text: PDF
+    url: pdfs/dima_etal_preprint_2021.pdf
+- authors: Himberger KD, Finn A, Honey CJ
+  year: '2019'
+  status: preprint
+  title: On the Automaticity of Visual Statistical Learning
+  journal: PsyArXiv
+  volume: r659w
+  tags: [temporal]
+  links:
+  - text: PsyArXiv
+    url: https://psyarxiv.com/r659w/
+  - text: PDF
+    url: https://psyarxiv.com/r659w/download?format=pdf
+- authors: Rahimi Moghaddam S, Bu F, Honey CJ
+  year: '2020'
+  status: preprint
+  title: Learning Representations from Temporally Smooth Data
+  journal: arXiv
+  volume: '2012.06694'
+  tags: [minds-machines]
+  links:
+  - text: arXiv
+    url: https://arxiv.org/abs/2012.06694
+  - text: PDF
+    url: pdfs/rahimi_moghaddam_bu_honey_learning_smooth_2020_preprint.pdf
+- authors: Chien HYS, Turek JS, Beckage N, Vo VA, Honey CJ, Wilke T
+  year: '2021'
+  title: Long Short-Term Memory with Slower Information Decay
+  journal: International Conference on Machine Learning
+  volume: LatinX in AI (LXAI) Research Workshop
+  tags: [minds-machines]
+  links:
+  - text: arXiv
+    url: https://arxiv.org/abs/2105.05944
+  - text: PDF
+    url: pdfs/chien_etal_wilke_arxiv_2021.pdf
+- authors: Nastase SA, Liu Y-F, Hillman H, Zadbood A, Hasenfratz L, Keshavarzian N, et al
+  year: '2021'
+  title: 'Narratives: fMRI data for evaluating models of naturalistic language comprehension'
+  journal: Scientific Data
+  volume: 8:250
+  tags: [methods]
+  links:
+  - text: GitHub
+    url: https://github.com/snastase/narratives
+  - text: journal
+    url: https://www.nature.com/articles/s41597-021-01033-3
+  - text: PDF
+    url: pdfs/nastase_etal_narratives_2021.pdf
+- authors: Chien HYS, Zhang J, Honey CJ
+  year: '2021'
+  title: Mapping the Timescale Organization of Neural Language Models
+  journal: International Conference on Learning Representations (ICLR 2021)
+  tags: [minds-machines]
+  links:
+  - text: arXiv
+    url: https://arxiv.org/abs/2012.06717
+  - text: PDF
+    url: pdfs/chien_zhang_honey_LSTM_timescales_arXiv_2020.pdf
+- authors: Woo JH, Honey CJ, Moon JY
+  year: '2020'
+  title: Phase and amplitude dynamics of coupled oscillator systems on complex networks
+  journal: Chaos
+  volume: '30(12): 121102'
+  tags: [networks]
+  links:
+  - text: journal
+    url: https://aip.scitation.org/doi/full/10.1063/5.0031031
+  - text: PDF
+    url: pdfs/woo_honey_moon_chaos_preprint_2020.pdf
+- authors: Chien HYS, Honey CJ
+  year: '2020'
+  title: Constructing and Forgetting Temporal Context in the Human Cerebral Cortex
+  journal: Neuron
+  volume: '106(4): 675-686'
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://pubmed.ncbi.nlm.nih.gov/32164874/
+  - text: journal
+    url: https://www.sciencedirect.com/science/article/pii/S0896627320301367
+  - text: PDF
+    url: pdfs/chien_honey_neuron_2020.pdf
+- authors: Müsch K, Himberger KD, Tan KM, Valiante TA, Honey CJ
+  year: '2020'
+  title: Transformation of Speech Sequences in Human Sensorimotor Circuits
+  journal: Proceedings of the National Academy of Sciences, USA
+  volume: 117(6) 3203-3213
+  tags: [temporal]
+  links:
+  - text: journal
+    url: https://www.pnas.org/content/117/6/3203.short
+  - text: PDF
+    url: pdfs/muesch_etal_honey_PNAS_2020.pdf
+- authors: Zuo X, Honey CJ, Barense MD, Crombie D, Norman KA, Hasson U, Chen J
+  year: '2020'
+  title: Temporal integration of narrative information in a hippocampal amnesic patient
+  journal: NeuroImage
+  volume: 213, 116658
+  tags: [temporal, memory-aging]
+  links:
+  - text: journal
+    url: https://www.sciencedirect.com/science/article/pii/S1053811920301452?via%3Dihub
+  - text: bioRxiv
+    url: https://www.biorxiv.org/content/10.1101/713180v1
+  - text: PDF
+    url: pdfs/zuo_etal_chen_neuroimage_2020.pdf
+- authors: Holdgraf C, Appelhoff S, Bickel S, Bouchard K, D'Ambrosio S, David O, ... & Gorgolewski KJ
+  year: '2019'
+  title: iEEG-BIDS, extending the Brain Imaging Data Structure specification to human intracranial electrophysiology
+  journal: Scientific Data
+  volume: '6'
+  tags: [methods]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/31239438
+  - text: PDF
+    url: https://www.nature.com/articles/s41597-019-0105-7.pdf
+- authors: Davidesco I, Thesen T, Honey CJ, Melloni L, Doyle W, Devinsky O, Ghitza O, Schroeder C, Poeppel D, Hasson U
+  year: '2018'
+  status: preprint
+  title: Electrocorticographic responses to time-compressed speech vary across the cortical auditory hierarchy
+  journal: bioRxiv
+  volume: '354464'
+  tags: [temporal]
+  links:
+  - text: bioRxiv
+    url: https://www.biorxiv.org/content/10.1101/354464v1.abstract
+  - text: PDF
+    url: pdfs/davidesco_etal_bioRxiv2018.pdf
+- authors: Himberger KD, Chien HYS, Honey CJ
+  year: '2018'
+  title: Principles of Temporal Processing Across the Cortical Hierarchy
+  journal: Neuroscience
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/29729293
+  - text: PDF
+    url: pdfs/himberger_chien_honey_neuroscience_2018.pdf
+- authors: Müsch K, Honey CJ
+  year: '2018'
+  title: Causal Evidence for a Neural Component of Spatially Global Hemodynamic Signals
+  note: Commentary
+  journal: Neuron
+  volume: '97(4): 734-736'
+  tags: [methods]
+  links:
+  - text: PubMed
+    url: https://pubmed.ncbi.nlm.nih.gov/29470965/
+  - text: PDF
+    url: pdfs/muesch_honey_neuron_2018.pdf
+- authors: Keller CJ, Huang Y, Herrero JL, Fini M, Du V, Lado F, Honey CJ, Mehta A
+  year: '2018'
+  title: Induction and quantification of excitability changes in human cortical networks
+  journal: Journal of Neuroscience
+  volume: '38(23): 5384-5398'
+  tags: [networks]
+  links:
+  - text: PDF
+    url: pdfs/keller_huang_etal_mehta_jneurosci_2018.pdf
+- authors: Haufe S, DeGuzman P, Henin S, Arcaro M, Honey CJ, Hasson U, Parra LC
+  year: '2018'
+  title: Elucidating relations between fMRI, ECoG, and EEG through a common natural stimulus
+  journal: NeuroImage
+  volume: '179: 79-91'
+  tags: [methods]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/29902585
+  - text: PDF
+    url: pdfs/haufe_etal_parra_neuroimage_2018.pdf
+- authors: Honey CJ, Valiante T
+  year: '2017'
+  title: 'Neuroscience: When a Single Image Can Cause a Seizure'
+  note: Commentary
+  journal: Current Biology
+  volume: 27(10), R394-R397
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/28535393
+  - text: PDF
+    url: pdfs/honey_valiante_currbiol_2017.pdf
+- authors: Honey CJ, Newman EL, Schapiro AC
+  year: '2017'
+  title: 'Switching between internal and external modes: a multi-scale learning principle'
+  journal: Network Neuroscience
+  volume: '1(4): 339–356'
+  tags: [minds-machines]
+  links:
+  - text: PubMed
+    url: https://pubmed.ncbi.nlm.nih.gov/30090870/
+  - text: journal
+    url: https://direct.mit.edu/netn/article/1/4/339/5395/Switching-between-internal-and-external-modes-A
+  - text: PDF
+    url: pdfs/honey_newman_schapiro_netneuro_2017.pdf
+- authors: Vodrahalli K, Chen PH, Liang Y, Baldassano C, Chen J, Yong E, Honey CJ, Hasson U, Ramadge P, Norman KA, Arora S
+  year: '2018'
+  title: Mapping between fMRI responses to movies and their natural language annotations
+  journal: NeuroImage
+  volume: '180: 223-231'
+  tags: [minds-machines]
+  links:
+  - text: PubMed
+    url: https://pubmed.ncbi.nlm.nih.gov/28860029/
+  - text: PDF
+    url: pdfs/vodrahalli_etal_norman_neuroimage_2017.pdf
+- authors: Groppe DM, Bickel S, Dykstra AR, Wang X, Mégevand P, Mercier MR, Lado FA, Mehta AD, Honey CJ
+  year: '2017'
+  title: 'iELVis: An open source MATLAB toolbox for localizing and visualizing human intracranial electrode data'
+  journal: Journal of Neuroscience Methods
+  volume: 281:40-48
+  tags: [methods]
+  links:
+  - text: bioRxiv
+    url: https://www.biorxiv.org/content/early/2016/08/11/069179
+  - text: PDF
+    url: pdfs/groppe_etal_honey_jneuromethods_2017.pdf
+- authors: Yeshurun Y, Swanson S, Simony E, Chen J, Lazaridi C, Honey CJ, Hasson U
+  year: '2017'
+  title: 'Same Story, Different Story: The Neural Representation of Interpretive Frameworks'
+  journal: Psychological Science
+  volume: 1-13
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/28099068
+  - text: PDF
+    url: pdfs/yeshurun_etal_hasson_psychscience_2017.pdf
+- authors: Chen J, Leong YC, Honey CJ, Yong CH, Norman KA, Hasson U
+  year: '2017'
+  title: Shared memories reveal shared structure in neural activity across individuals
+  journal: Nature Neuroscience
+  volume: '20(1): 115-125'
+  tags: [memory-aging]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/27918531
+  - text: bioRxiv
+    url: https://biorxiv.org/content/early/2016/01/05/035931
+  - text: PDF
+    url: pdfs/chen_etal_hasson_natneuro_2017.pdf
+- authors: Huffman G, Pratt J, Honey CJ
+  year: '2017'
+  status: preprint
+  title: Serial dependence transfers between perceptual objects
+  journal: bioRxiv
+  volume: '165399'
+  tags: [momentum]
+  links:
+  - text: bioRxiv
+    url: https://www.biorxiv.org/content/early/2017/07/19/165399
+  - text: PDF
+    url: pdfs/huffman_pratt_honey_biorxiv_2017_preprint.pdf
+- authors: Lositsky O, Chen J, Toker D, Honey CJ, Poppenk JL, Hasson U, Norman KA
+  year: '2016'
+  title: Neural Pattern Change During Encoding of a Narrative Predicts Retrospective Duration Estimates
+  journal: eLife
+  volume: 5:e16070
+  tags: [temporal, memory-aging]
+  links:
+  - text: eLife
+    url: https://elifesciences.org/content/5/e16070
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/27801645
+  - text: PDF
+    url: pdfs/lositsky_etal_eLife_2016.pdf
+- authors: Simony E, Honey CJ, Chen J, Lositsky O, Yeshurun Y, Wiesel A, Hasson U
+  year: '2016'
+  title: Dynamic reconfiguration of the default mode network during narrative comprehension
+  journal: Nature Communications
+  volume: 7(12141)
+  tags: [networks, temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/27424918
+  - text: PDF
+    url: pdfs/simony_etal_hasson_NatComms_2016.pdf
+- authors: Gaiteri C, Mostafavi S, Honey CJ, De Jager PL, Bennett DA
+  year: '2016'
+  title: Genetic variants in Alzheimer disease — molecular and brain network approaches
+  journal: Nature Reviews Neurology
+  volume: 12:413-7
+  tags: [memory-aging, networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/27282653
+  - text: PDF
+    url: pdfs/gaiteri_etal_bennett_natrevneurology_2016.pdf
+- authors: Honey CJ, Chen J, Müsch K, Hasson U
+  year: '2016'
+  title: How Long is Now? The Multiple Timescales of Language Processing
+  note: Commentary
+  journal: Behavioral and Brain Sciences
+  volume: '39'
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/25869618
+  - text: PDF
+    url: pdfs/christiansen_chater_BBS_2016.pdf
+- authors: Foster BL, He BJ, Honey CJ, Jerbi K, Maier A, Saalmann YB
+  year: '2016'
+  title: Spontaneous Neural Dynamics and Multi-scale Network Organization
+  journal: Frontiers in Systems Neuroscience
+  volume: 10(7)
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4746329/
+  - text: PDF
+    url: pdfs/foster_he_honey_jerbi_maier_saalmann_FiSN_2016.pdf
+- authors: Chen J, Hasson U, Honey CJ
+  year: '2015'
+  title: Processing Timescales as an Organizing Principle for Primate Cortex
+  note: Preview
+  journal: Neuron
+  volume: 88(2):244-6
+  tags: [temporal]
+  links:
+  - text: PDF
+    url: pdfs/chen_hasson_honey_neuron_2015_preview.pdf
+- authors: Chen J, Honey CJ, Simony E, Arcaro MJ, Norman KA, Hasson U
+  year: '2015'
+  title: Accessing Real-Life Episodic Information from Minutes versus Hours Earlier Modulates Hippocampal and High-Order Cortical Dynamics
+  journal: Cerebral Cortex
+  volume: 26(8):3428-3441
+  tags: [temporal, memory-aging]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/26240179
+  - text: PDF
+    url: pdfs/chen_etal_hasson_cerctx_2015.pdf
+- authors: Hasson U, Chen J, Honey CJ
+  year: '2015'
+  title: 'Hierarchical process memory: memory as an integral component of information processing'
+  journal: Trends in Cognitive Sciences
+  volume: 19(6):304-313
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/25980649
+  - text: PDF
+    url: pdfs/hasson_chen_honey_TiCS_2015.pdf
+- authors: Ames DL, Honey CJ, Chow MA, Todorov A, Hasson U
+  year: '2015'
+  title: Contextual alignment of Cognitive and Neural Dynamics
+  journal: Journal of Cognitive Neuroscience
+  volume: 27(4):655-64
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/25244122
+  - text: PDF
+    url: pdfs/ames_honey_chow_todorov_hasson_JoCN_2015.pdf
+- authors: Schmälzle R, Häcker F, Honey CJ, Hasson U
+  year: '2015'
+  title: 'Engaged listeners: Shared neural processing of powerful political speeches'
+  journal: Social Cognitive and Affective Neuroscience
+  volume: '10(8): 1137-43'
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/25653012
+  - text: PDF
+    url: pdfs/schmaelzle_etal_SCAN_2015.pdf
+- authors: Arcaro MJ, Honey CJ, Mruczek REB, Kastner S, Hasson U
+  year: '2015'
+  title: Widespread correlation patterns of fMRI signal across visual cortex reflect eccentricity organization
+  journal: eLife
+  volume: 4:e03952
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/25695154
+  - text: eLife
+    url: https://elifesciences.org/content/4/e03952
+  - text: PDF
+    url: pdfs/arcaro_etal_eLife_2015.pdf
+- authors: Silbert LJ, Honey CJ, Simony E, Poeppel D, Hasson U
+  year: '2014'
+  title: Coupled neural systems underlie the production and comprehension of naturalistic narrative speech
+  journal: Proceedings of the National Academy of Sciences, USA
+  volume: 111(43):E4687-96
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/25267658
+  - text: PDF
+    url: pdfs/silbert_etal_pnas_2014.pdf
+- authors: Keller CJ, Honey CJ, Mégevand P, Entz L, Ulbert I, Mehta AD
+  year: '2014'
+  title: Mapping human brain networks with cortico-cortical evoked potentials
+  journal: Philosophical Transactions of the Royal Society B
+  volume: '369(1653): 20130528'
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/25180306
+  - text: PDF
+    url: pdfs/keller_honey_etal_mehta_PTRSB_2014.pdf
+- authors: Keller CJ, Honey CJ, Entz L, Bickel S, Groppe D, Tóth E, Ulbert I, Lado F, Mehta AD
+  year: '2014'
+  title: Corticocortical evoked potentials reveal projectors and integrators in human brain networks
+  journal: Journal of Neuroscience
+  volume: 34(27):9152-63
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/24990935
+  - text: PDF
+    url: pdfs/keller_honey_entz_etal_mehta_jneuro_2014.pdf
+- authors: Lerner Y, Honey CJ, Katkov M, Hasson U
+  year: '2014'
+  title: Temporal scaling of neural responses to compressed and dilated natural speech
+  journal: Journal of Neurophysiology
+  volume: 111(12):2433-44
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/24647432
+  - text: PDF
+    url: pdfs/lerner_honey_katkov_hasson_jneurophys_2014.pdf
+- authors: Miller KJ, Honey CJ, Hermes D, Rao RPN, denNijs M, Ojemann JG
+  year: '2014'
+  title: Broadband changes in the cortical surface potential track activation of functionally diverse neuronal populations
+  journal: NeuroImage
+  volume: 85(2):711-720
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/24018305
+  - text: PDF
+    url: pdfs/miller_honey_hermes_etal_neuroimage_2014.pdf
+- authors: Stephens G, Honey CJ, Hasson U
+  year: '2013'
+  title: 'A Place for Time: The Spatiotemporal Structure of Neural dynamics During Natural Audition'
+  journal: Journal of Neurophysiology
+  volume: 110(9):2019-2026
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/23926041
+  - text: PDF
+    url: pdfs/stephens_honey_hasson_jneurophys_2013.pdf
+- authors: Regev M, Honey CJ, Simony E, Hasson U
+  year: '2013'
+  title: Selective and invariant neural responses to spoken and written narratives
+  journal: Journal of Neuroscience
+  volume: 33(4):15978-15988
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/24089502
+  - text: PDF
+    url: pdfs/regev_honey_simony_hasson_jneuro_2013.pdf
+- authors: Schmälzle R, Häcker F, Renner B, Honey CJ, Schupp HT
+  year: '2013'
+  title: Neural Correlates of Risk Perception during Real-Life Risk Communication
+  journal: Journal of Neuroscience
+  volume: 33(25):10340-7
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/23785147
+  - text: PDF
+    url: pdfs/schmaelzle_etal_jneuro_2013.pdf
+- authors: Sporns O, Honey CJ
+  year: '2013'
+  note: Commentary
+  title: Topographic Dynamics in the Resting Brain
+  journal: Neuron
+  volume: '78(6): 955-956'
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/23791191
+  - text: PDF
+    url: pdfs/sporns_honey_commentary_neuron_2013.pdf
+- authors: Keller CJ, Bickel S, Honey CJ, Groppe DM, Entz L, Craddock RC, Lado FA, Kelly C, Milham M, Mehta AD
+  year: '2013'
+  title: Neurophysiological Investigation of Spontaneous Correlated and Anticorrelated Fluctuations of the BOLD Signal
+  journal: Journal of Neuroscience
+  volume: 33(15):6333-6342
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/23575832
+  - text: PDF
+    url: pdfs/keller_etal_jneuro_2013.pdf
+- authors: Honey CJ*, Thompson CR*, Lerner Y, Hasson U
+  year: '2012'
+  title: 'Not Lost in Translation: Neural Responses Shared Across Languages'
+  journal: Journal of Neuroscience
+  volume: 32(44):15277-83
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/23115166
+  - text: PDF
+    url: pdfs/honey_thompson_lerner_hasson_jneuro_2012.pdf
+- authors: Honey CJ, Thesen T, Donner TH, Silbert LJ, Carlson CE, Devinsky O, Doyle WK, Rubin N, Heeger DJ, Hasson U
+  year: '2012'
+  title: Slow Dynamics in Human Cerebral Cortex and the Accumulation of Information over Long Timescales
+  journal: Neuron
+  volume: 76(2):423-434
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/23083743
+  - text: PDF
+    url: pdfs/honey_etal_neuron_2012.pdf
+- authors: Miller KJ, Foster BL, Honey CJ
+  year: '2012'
+  title: Does rhythmic entrainment represent a generalized mechanism for organizing computation in the brain?
+  note: Opinion
+  journal: Frontiers in Computational Neuroscience
+  volume: 6:85
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/23112771
+  - text: PDF
+    url: pdfs/miller_foster_honey_FiCN_2012.pdf
+- authors: Miller KJ, Hermes D, Honey CJ, Hebb AO, Ramsey NF, Knight RT, Ojemann JG, Fetz EE
+  year: '2012'
+  title: Human motor cortical activity is selectively phase-entrained on underlying rhythms
+  journal: PLoS Computational Biology
+  volume: '8(9): e1002655'
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://pubmed.ncbi.nlm.nih.gov/22969416/
+  - text: PDF
+    url: pdfs/miller_etal_PLoSCB_2012.pdf
+- authors: Ben-Yakov A, Honey CJ, Lerner Y, Hasson U
+  year: '2012'
+  title: Loss of reliable temporal structure in event-related averaging of naturalistic stimuli
+  journal: NeuroImage
+  volume: 63(1):501-6
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/22813575
+  - text: PDF
+    url: pdfs/ben-yakov_etal_neuroimage_2012.pdf
+- authors: Hasson U, Honey CJ
+  year: '2012'
+  title: 'Future trends in Neuroimaging: neural processes as expressed within real-life social contexts'
+  journal: NeuroImage
+  volume: 62(2):1272-8
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/22348879
+  - text: PDF
+    url: pdfs/hasson_honey_neuroimage_2012.pdf
+- authors: Lerner YL, Honey CJ, Silbert LJ, Hasson U
+  year: '2011'
+  title: Topographic Mapping of a Hierarchy of Temporal Receptive Windows Using a Narrated Story
+  journal: Journal of Neuroscience
+  volume: 31(8):2906-2915
+  tags: [temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/21414912
+  - text: PDF
+    url: pdfs/lerner_etal_jneuro_2011.pdf
+- authors: Miller KJ, Hermes D, Honey CJ, Sharma M, Rao RP, Den Nijs M, Fetz EE, Sejnowski TJ, Hebb AO, Ojemann JG, Makeig S, Leuthardt EC
+  year: '2010'
+  title: Dynamic modulation of local population activity by rhythm phase in human occipital cortex during a visual search task
+  journal: Frontiers in Human Neuroscience
+  volume: 4:197
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/21119778
+  - text: PDF
+    url: pdfs/miller_etal_FiHN_2010.pdf
+- authors: Honey CJ, Thivierge JP, Sporns O
+  year: '2010'
+  title: Can structure predict function in the human brain?
+  journal: NeuroImage
+  volume: 52(3):766-776
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/20116438
+  - text: PDF
+    url: pdfs/honey_etal_neuroimage_2010.pdf
+- authors: Hagmann P, Cammoun L, Gigandet X, Gerhard S, Ellen Grant P, Wedeen V, Meuli R, Thiran JP, Honey CJ, Sporns O
+  year: '2010'
+  title: 'MR connectomics: Principles and challenges'
+  journal: Journal of Neuroscience Methods
+  volume: '194(1): 34-35'
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/20096730
+  - text: PDF
+    url: pdfs/hagmann_etal_jneurometh_2010.pdf
+- authors: Honey CJ, Sporns O, Cammoun L, Gigandet X, Thiran JP, Meuli R, Hagmann P
+  year: '2009'
+  title: Predicting Human Resting-State Functional Connectivity from Structural Connectivity
+  journal: Proceedings of the National Academy of Sciences, USA
+  volume: 106(6):2035-40
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/19188601
+  - text: PDF
+    url: pdfs/honey_etal_pnas_2009.pdf
+  - text: SI
+    url: pdfs/honey_etal_pnas_2009_SI.pdf
+- authors: Riedl V, Honey CJ
+  year: '2008'
+  title: 'Alzheimer''s disease: a search for broken links'
+  note: Commentary
+  journal: Journal of Neuroscience
+  volume: 28(33):8148-9
+  tags: [memory-aging, networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/18701676
+  - text: PDF
+    url: pdfs/riedl_honey_jneuro_2008.pdf
+- authors: Hagmann P, Cammoun L, Gigandet X, Meuli R, Honey CJ, Wedeen VJ, Sporns O
+  year: '2008'
+  title: Mapping the Structural Core of Human Cerebral Cortex
+  journal: PLoS Biology
+  volume: '6(7): e159'
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/18597554
+  - text: PDF
+    url: pdfs/hagmann_etal_plosbiol_2008.pdf
+- authors: Honey CJ, Sporns O
+  year: '2008'
+  title: Dynamical Consequences of Lesions in Cortical Networks
+  journal: Human Brain Mapping
+  volume: '29(7): 802-9'
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/18438885
+  - text: PDF
+    url: pdfs/Honey_Sporns_HBM_2008.pdf
+- authors: Sporns O, Honey CJ, Kötter R
+  year: '2007'
+  title: Identification and Classification of Hubs in Brain Networks
+  journal: PLoS ONE
+  volume: '2(10): e1049'
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/17940613
+  - text: PDF
+    url: pdfs/sporns_honey_kotter_PLoSOne_2007.pdf
+- authors: Honey CJ, Kötter R, Breakspear M, Sporns O
+  year: '2007'
+  title: Network Structure of Cerebral Cortex Shapes Functional Connectivity on Multiple Time Scales
+  journal: Proceedings of the National Academy of Sciences, USA
+  volume: '104(24): 10240-5'
+  tags: [networks, temporal]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/17548818
+  - text: PDF with SI
+    url: pdfs/honey_etal_pnas_2007_withSI.pdf
+- authors: Townsend JT, Honey CJ
+  year: '2007'
+  title: Consequences of Base Time for Redundant Signals Experiments
+  journal: Journal of Mathematical Psychology
+  volume: '51(4): 242-265'
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/18670591
+  - text: PDF
+    url: pdfs/townsend_honey_jmp_2007.pdf
+- authors: Sporns O, Honey CJ
+  year: '2006'
+  title: Small Worlds in Big Brains
+  note: Commentary
+  journal: Proceedings of the National Academy of Sciences, USA
+  volume: '103(51): 19219-20'
+  tags: [networks]
+  links:
+  - text: PubMed
+    url: https://www.ncbi.nlm.nih.gov/pubmed/17159140
+  - text: PDF
+    url: pdfs/sporns_honey_PNAS_2006.pdf

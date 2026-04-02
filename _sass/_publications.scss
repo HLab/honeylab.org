@@ -1,0 +1,112 @@
+// Publications Section
+
+.publications-section {
+    padding: $space-4 0 $space-16;
+}
+
+// Filter buttons
+.pub-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-2;
+    margin-bottom: $space-8;
+}
+
+.pub-filter-btn {
+    background: $color-background;
+    border: 1px solid $color-border;
+    border-radius: 100px;
+    padding: $space-2 $space-5;
+    font-size: $text-sm;
+    font-family: inherit;
+    color: $color-text-light;
+    cursor: pointer;
+    transition: background $transition-fast, border-color $transition-fast, color $transition-fast;
+
+    &:hover {
+        border-color: $color-accent;
+        color: $color-accent;
+    }
+
+    &.active {
+        background: $color-accent;
+        border-color: $color-accent;
+        color: white;
+    }
+}
+
+.pub-list {
+    list-style: none;
+    padding: 0;
+
+    li {
+        display: flex;
+        gap: $space-4;
+        padding: $space-5 0;
+        border-bottom: 1px solid $color-border;
+        line-height: 1.7;
+
+        &:first-child {
+            padding-top: 0;
+        }
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+.pub-tags {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: $space-1;
+    min-width: 5em;
+    padding-top: 0.15em;
+}
+
+.pub-year-tag {
+    font-size: $text-sm;
+    font-weight: 600;
+    color: $color-text-muted;
+    letter-spacing: 0.02em;
+}
+
+.pub-status-tag {
+    font-size: $text-xs;
+    font-weight: 500;
+    color: $color-accent;
+    letter-spacing: 0.04em;
+}
+
+.pub-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.pub-citation {
+    font-size: $text-base;
+    color: $color-text;
+}
+
+.pub-links {
+    margin-top: $space-2;
+
+    a {
+        display: inline-block;
+        background: $color-background-alt;
+        padding: $space-1 $space-3;
+        border-radius: $border-radius;
+        font-size: $text-sm;
+        margin-right: $space-2;
+        margin-top: $space-2;
+
+        &:hover {
+            background: $color-accent;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+

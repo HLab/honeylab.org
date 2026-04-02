@@ -1,0 +1,41 @@
+title: Honey Lab
+description: Cognitive and Neural Sciences at Johns Hopkins University
+url: https://www.honeylab.org
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Plugins (all bundled with github-pages gem)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - TODO.md
+  - CHANGELOG.md
+  - updraft-backup
+  - scripts
+  - "*.py"
+  - "prototype-*.html"
+
+# Keep these directories in _site without processing
+keep_files:
+  - pdfs
+
+# Permalink style
+permalink: pretty
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page

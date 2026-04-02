@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body class="landing-page">
+    <canvas id="hexGrid"></canvas>
+
+    <div class="landing-overlay">
+        <div class="landing-header">
+            <h1 class="landing-title">
+                <span class="honey">honey</span><span class="lab">lab</span>
+            </h1>
+            <p class="landing-subtitle">Cognitive and Neural Sciences</p>
+        </div>
+    </div>
+
+    <div class="landing-spacer"></div>
+
+    {% include nav.html %}
+
+    <main class="landing-content">
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/hex-grid.js' | relative_url }}"></script>
+</body>
+</html>

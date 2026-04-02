@@ -1,0 +1,22 @@
+// Layout
+
+.container {
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0 $space-6;
+}
+
+main {
+    min-height: calc(100vh - #{$nav-height} - 100px);
+}
+
+// Page title (inner pages)
+.page-title {
+    padding: $space-8 0 $space-4;
+
+    h1 {
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,113 @@
+# Related Tools
+- name: "RAVE: Reproducible Analysis and Visualization of iEEG"
+  category: tools
+  url: https://rave.wiki
+  description: Open-source platform for analyzing intracranial EEG data, including ECoG and depth electrodes.
+  group: "Beauchamp Lab"
+
+# Open Datasets
+- name: "OpenNeuro"
+  category: data
+  url: https://openneuro.org
+  description: Open repository for neuroimaging datasets (MRI, fMRI, MEG, EEG, iEEG) in BIDS format.
+
+- name: "Courtois NeuroMod"
+  category: data
+  url: https://www.cneuromod.ca
+  description: Deeply sampled fMRI, MEG, and behavioral data from a small cohort across diverse tasks and naturalistic stimuli.
+
+# Books & Courses
+- name: "Statistical Thinking for the 21st Century"
+  category: learning
+  url: https://statsthinking21.github.io/statsthinking21-core-site/
+  description: Open textbook teaching statistics through simulation and real datasets rather than traditional formula-based methods.
+  group: "Poldrack"
+
+- name: "Better Code, Better Science"
+  category: learning
+  url: https://bettercodebetterscience.github.io/book/
+  description: Open textbook on version control, testing, reproducibility, and AI-assisted coding for scientists.
+  group: "Poldrack"
+
+# Collaborators & Related Labs
+- name: "Janice Chen"
+  category: labs
+  url: http://jchenlab.johnshopkins.edu
+  description: Naturalistic human memory; structure of real-world events and narratives.
+  group: "Johns Hopkins University"
+
+- name: "Buddhika Bellana"
+  category: labs
+  url: https://www.bellanalab.com/
+  description: Human memory and spontaneous thought.
+  group: "York University"
+
+- name: "Morgan Barense"
+  category: labs
+  url: http://barense.psych.utoronto.ca/
+  description: Memory, meaning and aging.
+  group: "University of Toronto"
+
+- name: "Kai Miller"
+  category: labs
+  url: https://scholar.google.com/citations?user=PK5gALEAAAAJ&hl=en
+  description: Movement disorders, neurosurgery, human systems neurosciences.
+  group: "Mayo Clinic"
+
+- name: "Dora Hermes"
+  category: labs
+  url: https://www.mayo.edu/research/faculty/hermes-miller-dora-ph-d/bio-20471548
+  description: Neuroinformatics, language, and development.
+  group: "Mayo Clinic"
+
+- name: "Taufik Valiante"
+  category: labs
+  url: http://www.neurontobrainlaboratory.ca
+  description: Circuit dynamics, circuit motifs, epilepsy, neurosurgery.
+  group: "University of Toronto"
+
+- name: "Hongmi Lee"
+  category: labs
+  description: Complex and naturalistic aspects of human memory.
+  url: https://sites.google.com/view/lmclab
+  group: "Purdue University"
+
+- name: "Donner Lab"
+  category: labs
+  url: http://www.tobiasdonner.net/
+  description: Decision-making, neural dynamics, and perceptual inference.
+  group: "University Medical Center Hamburg-Eppendorf"
+
+- name: "Hasson Lab"
+  category: labs
+  url: https://www.hassonlab.com
+  description: Neural processes underlying natural language, narrative, and communication.
+  group: "Princeton University"
+
+- name: "Heeger Lab"
+  category: labs
+  url: http://www.cns.nyu.edu/heegerlab/
+  description: Computational models of neural processing and visual perception.
+  group: "New York University"
+
+- name: "Sporns Lab"
+  category: labs
+  url: https://psych.indiana.edu/directory/faculty/sporns-olaf.html
+  description: Brain network organization, connectomics, and complex systems.
+  group: "Indiana University"
+
+# Community
+- name: "CCNeuro: Conference on Cognitive Computational Neuroscience"
+  category: community
+  url: https://ccneuro.org
+  description: Annual conference bridging cognitive science, neuroscience, and AI.
+
+- name: "Neuromatch: Computational Neuroscience"
+  category: learning
+  url: https://compneuro.neuromatch.io/tutorials/intro.html
+  description: Open course covering computational neuroscience fundamentals.
+
+- name: "Neuromatch: NeuroAI"
+  category: learning
+  url: https://neuroai.neuromatch.io/tutorials/intro.html
+  description: Open course on neuroscience and artificial intelligence.

@@ -1,0 +1,58 @@
+// Shared Components
+
+// Positions / Join Us
+.positions-section {
+    padding: $space-4 0 $space-16;
+}
+
+.position-card {
+    background: $color-background-alt;
+    padding: $space-8;
+    border-radius: $border-radius-lg;
+    margin-bottom: $space-8;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    h2 {
+        margin-bottom: $space-4;
+    }
+
+    ul {
+        margin-top: $space-4;
+        margin-bottom: $space-4;
+    }
+
+    li {
+        margin-bottom: $space-2;
+    }
+}
+
+// Contact section
+.contact-section {
+    padding: $space-4 0 $space-16;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $space-12;
+}
+
+.contact-info {
+    h2 {
+        font-size: $text-xl;
+        margin-top: $space-8;
+        margin-bottom: $space-4;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.contact-map iframe {
+    border-radius: $border-radius-lg;
+    box-shadow: $shadow-md;
+}

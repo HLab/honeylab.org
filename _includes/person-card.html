@@ -1,0 +1,34 @@
+<article class="person-card">
+    {% assign alt_is_list = false %}
+    {% if include.person.photo_alt.first %}{% assign alt_is_list = true %}{% endif %}
+    <div class="person-photo{% if include.person.photo_alt %} has-alt{% endif %}">
+        {% if include.person.photo %}
+        <img src="{{ '/assets/images/people/' | append: include.person.photo | relative_url }}" alt="{{ include.person.name }}"{% if include.person.photo_position %} style="object-position: {{ include.person.photo_position }}"{% endif %}>
+        {% if alt_is_list %}
+            {% for alt in include.person.photo_alt %}
+                <img src="{{ '/assets/images/people/' | append: alt | relative_url }}" alt="{{ include.person.name }}" class="person-photo-alt"{% if include.person.photo_position %} style="object-position: {{ include.person.photo_position }}"{% endif %}>
+            {% endfor %}
+        {% elsif include.person.photo_alt %}
+            <img src="{{ '/assets/images/people/' | append: include.person.photo_alt | relative_url }}" alt="{{ include.person.name }}" class="person-photo-alt"{% if include.person.photo_position %} style="object-position: {{ include.person.photo_position }}"{% endif %}>
+        {% endif %}
+        {% else %}
+        <img src="{{ '/assets/images/people/placeholder-person.png' | relative_url }}" alt="{{ include.person.name }}" class="person-photo-placeholder-img">
+        {% endif %}
+    </div>
+    <div class="person-info">
+        <h3>{{ include.person.name }}</h3>
+        <p class="role">{{ include.person.role }}</p>
+        {% if include.person.focus %}
+        <p class="focus"><strong>Focus:</strong> {{ include.person.focus }}</p>
+        {% endif %}
+        {% if include.person.website or include.person.email or include.person.neurotree %}
+        <p class="links">
+            {% if include.person.website %}<a href="{{ include.person.website }}">Website</a>{% endif %}
+            {% if include.person.website and include.person.neurotree %} | {% endif %}
+            {% if include.person.neurotree %}<a href="{{ include.person.neurotree }}">NeuroTree</a>{% endif %}
+            {% if include.person.email and include.person.website %} | {% elsif include.person.email and include.person.neurotree %} | {% endif %}
+            {% if include.person.email %}<a href="mailto:{{ include.person.email }}">Email</a>{% endif %}
+        </p>
+        {% endif %}
+    </div>
+</article>

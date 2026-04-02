@@ -1,0 +1,26 @@
+// Footer
+
+.site-footer {
+    background: $color-primary-dark;
+    color: white;
+    padding: $space-8 0;
+    text-align: center;
+
+    p {
+        margin: 0;
+        opacity: 0.7;
+        font-size: $text-sm;
+
+        + p {
+            margin-top: $space-2;
+        }
+    }
+
+    a {
+        color: white;
+
+        &:hover {
+            color: $color-accent;
+        }
+    }
+}

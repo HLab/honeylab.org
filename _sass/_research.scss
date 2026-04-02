@@ -1,0 +1,125 @@
+// Research Section
+
+.research-topic {
+    padding: $space-12 0;
+    border-bottom: 1px solid $color-border;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    &.alt {
+        background: $color-background-alt;
+    }
+}
+
+.research-summary {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: $space-10;
+    align-items: start;
+}
+
+.research-image {
+    img {
+        width: 100%;
+        border-radius: $border-radius-lg;
+        box-shadow: $shadow-md;
+    }
+
+    // Hover image swap (e.g. bw → amber)
+    &.research-image-hover {
+        position: relative;
+
+        .research-image-alt {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            transition: opacity $transition;
+        }
+
+        &:hover .research-image-alt {
+            opacity: 1;
+        }
+    }
+}
+
+.research-intro {
+    h2 {
+        font-size: $text-2xl;
+        margin-bottom: $space-4;
+        color: $color-primary;
+    }
+
+    > p {
+        color: $color-text;
+        line-height: 1.7;
+        margin-bottom: $space-4;
+    }
+}
+
+// Expand/collapse
+.research-details {
+    summary {
+        cursor: pointer;
+        color: $color-accent;
+        font-weight: 600;
+        font-size: $text-sm;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        list-style: none;
+        user-select: none;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+
+        &::before {
+            content: '+ ';
+        }
+
+        &:hover {
+            color: $color-accent-hover;
+        }
+    }
+
+    &[open] summary::before {
+        content: '− ';
+    }
+}
+
+.research-expanded {
+    margin-top: $space-6;
+
+    p {
+        color: $color-text;
+        line-height: 1.7;
+        margin-bottom: $space-4;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.research-papers {
+    font-size: $text-sm;
+    color: $color-text-light;
+    margin-top: $space-4;
+
+    strong {
+        color: $color-primary;
+    }
+
+    a {
+        color: $color-accent;
+
+        &:hover {
+            color: $color-accent-hover;
+        }
+    }
+
+    em {
+        font-style: italic;
+    }
+}

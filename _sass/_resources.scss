@@ -1,0 +1,84 @@
+// Resources Section
+
+.resources-section {
+    padding: $space-4 0 $space-16;
+}
+
+.resource-group {
+    margin-bottom: $space-12;
+
+    h2 {
+        font-size: $text-2xl;
+        padding-bottom: $space-3;
+        border-bottom: 2px solid $color-accent;
+        margin-bottom: $space-6;
+    }
+}
+
+.resource-list {
+    display: grid;
+    gap: $space-6;
+}
+
+.resource-card {
+    background: $color-background-alt;
+    padding: $space-6;
+    border-radius: $border-radius-lg;
+    border-left: 4px solid $color-accent;
+
+    h3 {
+        font-size: $text-lg;
+        margin-bottom: $space-2;
+
+        a {
+            color: $color-primary;
+
+            &:hover {
+                color: $color-link;
+            }
+        }
+    }
+
+    p {
+        color: $color-text-light;
+        margin-bottom: $space-2;
+        font-size: $text-sm;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .resource-meta {
+        display: flex;
+        align-items: center;
+        gap: $space-3;
+        margin-top: $space-3;
+    }
+
+    .resource-badge {
+        display: inline-block;
+        background: $color-primary;
+        color: white;
+        font-size: $text-xs;
+        padding: $space-1 $space-3;
+        border-radius: $border-radius;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+    }
+
+    .resource-paper {
+        font-size: $text-sm;
+        color: $color-text-light;
+    }
+
+    // External resources: no amber border, subtler
+    &.resource-card-external {
+        border-left: 4px solid $color-border;
+    }
+}
+
+.resources-external {
+    border-top: 1px solid $color-border;
+}

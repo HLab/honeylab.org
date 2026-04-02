@@ -1,0 +1,162 @@
+// People Section
+
+.people-section,
+.collaborators-section,
+.alumni-section {
+    padding: $space-4 0 $space-16;
+}
+
+.people-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: $space-6;
+}
+
+// 12-point polygon approximations for smooth circle→hex clip-path morph.
+// Hex vertices (at 0°, 60°, 120°, …) sit exactly on the circle, so 6 points
+// stay fixed while 6 edge-midpoints morph inward to form the hex's flat sides.
+$clip-circle-12: polygon(
+    50% 0%, 75% 6.7%, 93.3% 25%, 100% 50%,
+    93.3% 75%, 75% 93.3%, 50% 100%, 25% 93.3%,
+    6.7% 75%, 0% 50%, 6.7% 25%, 25% 6.7%
+);
+$clip-hex-12: polygon(
+    50% 0%, 71.65% 12.5%, 93.3% 25%, 93.3% 50%,
+    93.3% 75%, 71.65% 87.5%, 50% 100%, 28.35% 87.5%,
+    6.7% 75%, 6.7% 50%, 6.7% 25%, 28.35% 12.5%
+);
+
+.person-card {
+    background: $color-background;
+    border-radius: $border-radius-lg;
+    overflow: hidden;
+    transition: box-shadow $transition;
+
+    &:hover {
+        box-shadow: $shadow-md;
+    }
+}
+
+.person-photo {
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    background: $color-background-alt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    img {
+        width: 88%;
+        height: 88%;
+        object-fit: cover;
+        clip-path: $clip-circle-12;
+        margin: auto;
+        transition: clip-path $transition-slow, opacity $transition;
+    }
+
+    .person-photo-alt {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+
+    &.has-alt {
+        cursor: pointer;
+    }
+}
+
+// Hover: circle→hex morph (all cards)
+.person-card:hover .person-photo img {
+    clip-path: $clip-hex-12;
+}
+
+// Photo swap is onclick (JS), not hover — easter egg
+
+.person-photo-placeholder-img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    opacity: 0.25;
+    clip-path: none;
+}
+
+.person-info {
+    padding: $space-4 $space-4 $space-5;
+    text-align: center;
+
+    h3 {
+        font-size: $text-base;
+        font-weight: 600;
+        margin-bottom: $space-1;
+    }
+
+    .role {
+        color: $color-accent;
+        font-weight: 500;
+        font-size: $text-sm;
+        margin-bottom: $space-2;
+    }
+
+    .focus {
+        font-size: $text-sm;
+        color: $color-text-light;
+        margin-bottom: $space-2;
+    }
+
+    .links {
+        font-size: $text-sm;
+        margin-bottom: 0;
+    }
+}
+
+// Collaborators
+.collaborators-section {
+    border-top: 1px solid $color-border;
+
+    h2 {
+        margin-bottom: $space-6;
+    }
+}
+
+.collaborators-list {
+    column-count: 2;
+    column-gap: $space-8;
+    list-style: none;
+    padding: 0;
+
+    li {
+        padding: $space-2 0;
+        break-inside: avoid;
+    }
+}
+
+// Alumni
+.alumni-section {
+    border-top: 1px solid $color-border;
+
+    h2 {
+        margin-bottom: $space-6;
+    }
+}
+
+.alumni-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: $space-4;
+}
+
+.alumni-item {
+    padding: $space-4;
+    background: $color-background-alt;
+    border-radius: $border-radius;
+    font-size: $text-sm;
+    line-height: 1.6;
+
+    strong {
+        color: $color-primary;
+    }
+}

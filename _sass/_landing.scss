@@ -1,0 +1,141 @@
+// Landing page — interactive hex grid hero with brain logo
+// Only applies when body.landing-page is present
+// Font (Source Sans 3) and @font-face are now global in _base.scss
+// Nav is now a shared component in _nav.scss
+
+.landing-page {
+
+  // ---- Canvas ----
+  #hexGrid {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  // ---- Fixed overlay (title only — fades on scroll) ----
+  .landing-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .landing-header {
+    position: absolute;
+    top: 3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    opacity: 0;
+    animation: landing-fadeDown 0.9s cubic-bezier(0.23, 1, 0.32, 1) 0.3s forwards;
+  }
+
+  .landing-title {
+    font-size: clamp(3.2rem, 7.5vw, 6rem);
+    font-weight: 500;
+    letter-spacing: -0.035em;
+    line-height: 1;
+
+    .honey { color: $color-honey; }
+    .lab   { color: $color-lab; }
+  }
+
+  .landing-subtitle {
+    font-size: clamp(0.85rem, 1.6vw, 1.2rem);
+    font-weight: 400;
+    color: $color-lab;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    margin-top: 0.8rem; // visually tuned
+  }
+
+  // ---- Hero spacer (pushes nav to bottom of viewport) ----
+  .landing-spacer {
+    height: calc(100vh - #{$nav-height});
+    pointer-events: none;
+  }
+
+  // ---- Nav entrance animation ----
+  .site-nav {
+    opacity: 0;
+    animation: landing-fadeUp-simple 0.9s cubic-bezier(0.23, 1, 0.32, 1) 0.7s forwards;
+  }
+
+  // ---- Below-fold content ----
+  .landing-content {
+    position: relative;
+    z-index: 2;
+    background: $color-background;
+
+    .section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: $space-20 $space-8;
+      scroll-margin-top: $space-8;
+    }
+
+    .section + .section {
+      border-top: 1px solid $color-border;
+    }
+
+    // Visually tuned sizes — intentional departures from token scale
+    .section h2 {
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: $color-honey;
+      margin-bottom: $space-6;
+      letter-spacing: -0.01em;
+      display: flex;
+      align-items: baseline;
+      gap: 0.6rem;
+    }
+
+    .section-icon {
+      width: 56px;
+      height: 56px;
+      opacity: 0.55;
+      flex-shrink: 0;
+      object-fit: contain;
+      object-position: bottom;
+    }
+
+    .section-icon-png {
+      // Approximate black → honey-amber via CSS filter
+      filter: invert(48%) sepia(80%) saturate(2000%) hue-rotate(18deg) brightness(95%);
+    }
+
+    // Visually tuned — slightly above $text-base for comfortable reading
+    .section p {
+      font-size: 1.05rem;
+      font-weight: 400;
+      color: $color-text-light;
+      line-height: 1.7;
+      max-width: 680px;
+    }
+
+    .section a {
+      color: $color-accent;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+
+  // ---- Animations ----
+  @keyframes landing-fadeUp-simple {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes landing-fadeDown {
+    from { opacity: 0; transform: translateX(-50%) translateY(-14px); }
+    to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+  }
+
+  // ---- Mobile ----
+  @media (max-width: $bp-sm) {
+    .landing-header { top: 2.5rem; }
+  }
+}

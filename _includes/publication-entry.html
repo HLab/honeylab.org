@@ -1,0 +1,16 @@
+<li data-tags="{% if include.pub.tags %}{{ include.pub.tags | join: ' ' }}{% else %}other{% endif %}">
+    <div class="pub-tags">
+        <span class="pub-year-tag">{{ include.pub.year }}</span>
+        {% if include.pub.status == "preprint" %}<span class="pub-status-tag">preprint</span>{% endif %}
+    </div>
+    <div class="pub-body">
+        <span class="pub-citation">{{ include.pub.authors }}. {{ include.pub.title }}{% if include.pub.journal %} <em>{{ include.pub.journal }}</em>{% endif %}{% if include.pub.volume %}, {{ include.pub.volume }}{% endif %}{% if include.pub.note %} ({{ include.pub.note }}){% endif %}</span>
+        {% if include.pub.links.size > 0 %}
+        <span class="pub-links">
+            {% for link in include.pub.links %}
+            <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.text }}</a>
+            {% endfor %}
+        </span>
+        {% endif %}
+    </div>
+</li>

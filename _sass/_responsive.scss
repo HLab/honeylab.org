@@ -1,0 +1,110 @@
+// Responsive Design
+// All breakpoint overrides in one place
+
+@media (max-width: $bp-lg) {
+    .research-summary {
+        grid-template-columns: 1fr;
+    }
+
+    .research-image {
+        text-align: center;
+
+        img {
+            max-width: 200px;
+            margin: 0 auto;
+        }
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .collaborators-list {
+        column-count: 1;
+    }
+}
+
+@media (max-width: $bp-md) {
+    h1 { font-size: $text-3xl; }
+    h2 { font-size: $text-2xl; }
+    h3 { font-size: $text-xl; }
+
+    .people-grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+
+    .alumni-list {
+        grid-template-columns: 1fr;
+    }
+
+    // Mobile nav
+    .site-nav .nav-toggle {
+        display: flex;
+    }
+
+    .site-nav .nav-links {
+        position: fixed;
+        top: $nav-height;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: $color-background;
+        border-bottom: 1px solid $color-border;
+        padding: $space-6;
+        gap: $space-4;
+        transform: translateY(-100%);
+        opacity: 0;
+        visibility: hidden;
+        transition: transform $transition-slow, opacity $transition-slow, visibility $transition-slow;
+
+        a {
+            display: block;
+            padding: $space-3;
+            color: $color-text-muted;
+            text-shadow: none;
+        }
+    }
+
+    // CSS-only toggle: checkbox checked opens the menu (no JS needed)
+    .site-nav .nav-check:checked ~ .nav-links {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    // On mobile landing page, show stuck background (for hamburger menu)
+    // but keep logo hidden until scrolled (same as desktop)
+    .landing-page .site-nav {
+        background: $color-background;
+        border-bottom: 1px solid $color-border;
+    }
+}
+
+@media (max-width: $bp-sm) {
+    .container {
+        padding: 0 $space-4;
+    }
+
+    .people-section,
+    .collaborators-section,
+    .alumni-section,
+    .research-topic,
+    .publications-section,
+    .positions-section,
+    .contact-section,
+    .resources-section {
+        padding: $space-10 0;
+    }
+
+    // Publications: stack tags above citation
+    .pub-list li {
+        flex-direction: column;
+        gap: $space-1;
+    }
+
+    .pub-tags {
+        flex-direction: row;
+        align-items: baseline;
+        min-width: 0;
+    }
+}
