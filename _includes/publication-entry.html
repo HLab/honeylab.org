@@ -4,7 +4,7 @@
         {% if include.pub.status == "preprint" %}<span class="pub-status-tag">preprint</span>{% endif %}
     </div>
     <div class="pub-body">
-        <span class="pub-citation">{{ include.pub.authors }}. {{ include.pub.title }}{% if include.pub.journal %} <em>{{ include.pub.journal }}</em>{% endif %}{% if include.pub.volume %}, {{ include.pub.volume }}{% endif %}{% if include.pub.note %} ({{ include.pub.note }}){% endif %}</span>
+        <span class="pub-citation">{{ include.pub.authors }}. {{ include.pub.title }}.{% if include.pub.journal %} <em>{{ include.pub.journal }}</em>{% if include.pub.volume %}, {{ include.pub.volume }}{% endif %}.{% endif %}{% if include.pub.note %} ({{ include.pub.note }}){% endif %}</span>
         {% if include.pub.links.size > 0 %}
         <span class="pub-links">
             {% for link in include.pub.links %}
