@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resources
+title: Scientific Resources and Connections
 description: Honey Lab resources - datasets, code, and tools from our research
 ---
 

@@ -4,34 +4,59 @@
     padding: $space-4 0 $space-16;
 }
 
-// Filter buttons
-.pub-filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: $space-2;
-    margin-bottom: $space-8;
-}
+// SVG honeycomb filter grid — edge-only hexes, amber strokes
+.pub-filters-svg {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto $space-8;
+    overflow: visible;
 
-.pub-filter-btn {
-    background: $color-background;
-    border: 1px solid $color-border;
-    border-radius: 100px;
-    padding: $space-2 $space-5;
-    font-size: $text-sm;
-    font-family: inherit;
-    color: $color-text-light;
-    cursor: pointer;
-    transition: background $transition-fast, border-color $transition-fast, color $transition-fast;
-
-    &:hover {
-        border-color: $color-accent;
-        color: $color-accent;
+    // Decorative hex outlines — subtle amber mesh with varied fill
+    .hex-decorative {
+        fill: $color-accent;           // fill-opacity set per-hex in SVG for variation
+        stroke: $color-accent;
+        stroke-width: 1;
+        stroke-opacity: 0.4;
     }
 
-    &.active {
-        background: $color-accent;
-        border-color: $color-accent;
-        color: white;
+    // Clickable filter buttons
+    .pub-filter-btn {
+        cursor: pointer;
+
+        polygon {
+            fill: none;
+            stroke: $color-accent;
+            stroke-width: 2;
+            // Catch pointer events on empty interior, not just the stroke line
+            pointer-events: all;
+            transition: fill $transition-fast, stroke-width $transition-fast;
+        }
+
+        text, tspan {
+            fill: $color-text-light;
+            font-family: inherit;
+            font-size: 16px;
+            font-weight: 600;
+            pointer-events: none;
+            transition: fill $transition-fast;
+            user-select: none;
+        }
+
+        &:hover polygon {
+            fill: rgba(212, 146, 11, 0.12);
+            stroke-width: 2.5;
+        }
+
+        &.active polygon {
+            fill: $color-accent;
+            stroke-width: 2;
+        }
+
+        &.active text,
+        &.active tspan {
+            fill: white;
+        }
     }
 }
 

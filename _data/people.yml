@@ -2,8 +2,8 @@
 - name: Christopher Honey
   role: Principal Investigator
   group: pi
-  photo: chris-honey-1.png
-  photo_alt: chris-honey-2.png
+  photo: chris-honey-1.jpg
+  photo_alt: chris-honey-2.jpg
   photo_position: "center 20%"
   neurotree: https://neurotree.org/neurotree/peopleinfo.php?pid=25487
   active: true
@@ -11,14 +11,14 @@
 - name: Rolando Masis-Obando
   role: Postdoctoral Research Fellow
   group: postdoc
-  photo: rolando-masis.png
+  photo: rolando-masis.jpg
   focus: schemas & contexts, memory enhancement, neurofeedback, virtual/augmented reality
   active: true
 
 - name: Xian Li
   role: Graduate Student
   group: grad
-  photo: xian-li.png
+  photo: xian-li.jpg
   focus: storage, retrieval, and maintenance of context in humans & machines
   website: http://www.xian-li.com
   active: true
@@ -70,7 +70,7 @@
 - name: Jane Chen
   role: Undergraduate Research Assistant
   group: undergrad
-  photo: jane-chen.png
+  photo: jane-chen.jpg
   active: true
 
 - name: Dhruva Arekar

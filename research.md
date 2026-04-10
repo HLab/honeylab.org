@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: Research Areas
 description: Honey Lab research - temporal processing, spontaneous thought, memory, brain networks, and AI
 ---
 
@@ -34,8 +34,8 @@ description: Honey Lab research - temporal processing, spontaneous thought, memo
     <div class="container">
         <div class="research-summary">
             <div class="research-image research-image-hover" style="text-align: center">
-                <img src="{{ '/assets/images/research/thinking-robot-bw.png' | relative_url }}" alt="Minds and Machines" style="max-width: 70%; margin: 0 auto">
-                <img src="{{ '/assets/images/research/thinking-robot-amber.png' | relative_url }}" alt="Minds and Machines (amber highlight)" class="research-image-alt" style="max-width: 70%; margin: 0 auto">
+                <img src="{{ '/assets/images/research/thinking-robot-bw.jpg' | relative_url }}" alt="Minds and Machines" style="max-width: 70%; margin: 0 auto">
+                <img src="{{ '/assets/images/research/thinking-robot-amber.jpg' | relative_url }}" alt="Minds and Machines (amber highlight)" class="research-image-alt" style="max-width: 70%; margin: 0 auto">
             </div>
             <div class="research-intro">
                 <h2>Minds &amp; Machines</h2>
@@ -62,7 +62,7 @@ description: Honey Lab research - temporal processing, spontaneous thought, memo
     <div class="container">
         <div class="research-summary">
             <div class="research-image">
-                <img src="{{ '/assets/images/research/chien-2020-timescale-picture.png' | relative_url }}" alt="Timescale hierarchy in the cerebral cortex">
+                <img src="{{ '/assets/images/research/chien-2020-timescale-picture.jpg' | relative_url }}" alt="Timescale hierarchy in the cerebral cortex">
             </div>
             <div class="research-intro">
                 <h2>Temporal Processing &amp; Context</h2>

@@ -5,6 +5,31 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="icon" href="{{ '/assets/images/logo/favicon.png' | relative_url }}" type="image/png">
 {% seo %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "name": "Honey Lab",
+  "alternateName": "Honey Lab at Johns Hopkins University",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/assets/images/logo/brain-hex-transparent-bg.png",
+  "description": "{{ site.description }}",
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": "Johns Hopkins University",
+    "url": "https://www.jhu.edu/"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Christopher Honey",
+    "jobTitle": "Principal Investigator",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Johns Hopkins University"
+    }
+  }
+}
+</script>
 <!-- noscript colors must match SCSS: $color-background, $color-border, $color-text-muted -->
 <noscript><style>
     .landing-page #hexGrid,
