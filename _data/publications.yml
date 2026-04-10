@@ -58,7 +58,7 @@
   title: Boosting Theory-of-Mind Performance in Large Language Models via Prompting
   journal: arXiv
   volume: '2304.11490'
-  tags: [minds-machines]
+  tags: [brains-ai]
   links:
   - text: arXiv
     url: https://arxiv.org/abs/2304.11490
@@ -94,7 +94,7 @@
   year: '2022'
   title: Short-term memory in neural language models
   journal: Conference on Natural Language Learning (CoNLL)
-  tags: [minds-machines]
+  tags: [brains-ai]
   links:
   - text: arXiv
     url: https://arxiv.org/abs/2210.13569
@@ -153,7 +153,7 @@
   title: Learning Representations from Temporally Smooth Data
   journal: arXiv
   volume: '2012.06694'
-  tags: [minds-machines]
+  tags: [brains-ai]
   links:
   - text: arXiv
     url: https://arxiv.org/abs/2012.06694
@@ -164,7 +164,7 @@
   title: Long Short-Term Memory with Slower Information Decay
   journal: International Conference on Machine Learning
   volume: LatinX in AI (LXAI) Research Workshop
-  tags: [minds-machines]
+  tags: [brains-ai]
   links:
   - text: arXiv
     url: https://arxiv.org/abs/2105.05944
@@ -187,7 +187,7 @@
   year: '2021'
   title: Mapping the Timescale Organization of Neural Language Models
   journal: International Conference on Learning Representations (ICLR 2021)
-  tags: [minds-machines]
+  tags: [brains-ai]
   links:
   - text: arXiv
     url: https://arxiv.org/abs/2012.06717
@@ -323,7 +323,7 @@
   title: 'Switching between internal and external modes: a multi-scale learning principle'
   journal: Network Neuroscience
   volume: '1(4): 339–356'
-  tags: [minds-machines]
+  tags: [brains-ai]
   links:
   - text: PubMed
     url: https://pubmed.ncbi.nlm.nih.gov/30090870/
@@ -336,7 +336,7 @@
   title: Mapping between fMRI responses to movies and their natural language annotations
   journal: NeuroImage
   volume: '180: 223-231'
-  tags: [minds-machines]
+  tags: [brains-ai]
   links:
   - text: PubMed
     url: https://pubmed.ncbi.nlm.nih.gov/28860029/

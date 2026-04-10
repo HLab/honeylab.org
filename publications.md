@@ -31,16 +31,13 @@ description: Honey Lab publications - research papers on brain connectivity, tem
           <g class="pub-filter-btn" data-filter="momentum" role="button" tabindex="0">
             <polygon points="346.41,0 389.71,25 389.71,75 346.41,100 303.11,75 303.11,25" />
             <text x="346.41" y="50" text-anchor="middle">
-              <tspan x="346.41" y="41" dominant-baseline="central">Cognitive</tspan>
+              <tspan x="346.41" y="41" dominant-baseline="central">Mental</tspan>
               <tspan x="346.41" y="59" dominant-baseline="central">Momentum</tspan>
             </text>
           </g>
-          <g class="pub-filter-btn" data-filter="minds-machines" role="button" tabindex="0">
+          <g class="pub-filter-btn" data-filter="brains-ai" role="button" tabindex="0">
             <polygon points="606.22,0 649.52,25 649.52,75 606.22,100 562.92,75 562.92,25" />
-            <text x="606.22" y="50" text-anchor="middle">
-              <tspan x="606.22" y="41" dominant-baseline="central">Minds &amp;</tspan>
-              <tspan x="606.22" y="59" dominant-baseline="central">Machines</tspan>
-            </text>
+            <text x="606.22" y="50" text-anchor="middle" dominant-baseline="central">Brains &amp; AI</text>
           </g>
           <g class="pub-filter-btn" data-filter="memory-aging" role="button" tabindex="0">
             <polygon points="866.03,0 909.33,25 909.33,75 866.03,100 822.72,75 822.72,25" />

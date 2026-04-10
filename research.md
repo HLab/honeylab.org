@@ -11,7 +11,7 @@ description: Honey Lab research - temporal processing, spontaneous thought, memo
                 <img src="{{ '/assets/images/research/psychological-momentum.png' | relative_url }}" alt="Psychological Momentum">
             </div>
             <div class="research-intro">
-                <h2>Momentum in our Thoughts</h2>
+                <h2>Mental Momentum</h2>
                 <p>When we finish a book or leave a conversation, the experience does not simply stop. For some experiences, ideas and themes continue to surface in our thoughts for hours. We study how and why certain mental content persists beyond the experiences that produced it, and what this reveals about the organization of thought.</p>
                 <details class="research-details">
                     <summary>Read more</summary>
@@ -38,7 +38,7 @@ description: Honey Lab research - temporal processing, spontaneous thought, memo
                 <img src="{{ '/assets/images/research/thinking-robot-amber.jpg' | relative_url }}" alt="Minds and Machines (amber highlight)" class="research-image-alt" style="max-width: 70%; margin: 0 auto">
             </div>
             <div class="research-intro">
-                <h2>Minds &amp; Machines</h2>
+                <h2>Brains &amp; AI</h2>
                 <p>Many of the principles that organize processing in the brain also appear in artificial neural networks. We study the parallels between biological and artificial learning systems, and we probe cognitive abilities in large language models.</p>
                 <details class="research-details">
                     <summary>Read more</summary>
