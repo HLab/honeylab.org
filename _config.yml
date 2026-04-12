@@ -25,6 +25,7 @@ exclude:
   - scripts
   - "*.py"
   - "prototype-*.html"
+  - temp
 
 # Keep these directories in _site without processing
 keep_files:
@@ -39,3 +40,7 @@ defaults:
       path: ""
     values:
       layout: page
+  - scope:
+      path: "pdfs"
+    values:
+      sitemap: false
