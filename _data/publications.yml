@@ -1,11 +1,20 @@
-- authors: Park Y, Cha Y, Kim H, Kim Y, Woo JH, Cho H, Mashour GA, Xu T, Lee U, Hong SJ, Honey CJ, Moon JY
-  year: '2025'
+- authors: Zhang M, Liu PR, Su H, Zhao M, Li X, Born S, Lee Y, Honey CJ, Chen J, Lee H
+  year: '2026'
   status: preprint
-  title: Sub-second fluctuation between top-down and bottom-up modes distinguishes diverse human brain states
-  tags: [networks]
+  title: An fMRI dataset of verbalized spontaneous thought with annotated transcripts and self-report trait measures
+  tags: [momentum, memory-aging]
   links:
   - text: bioRxiv
-    url: https://www.biorxiv.org/content/10.1101/2025.03.12.642768v3.abstract
+    url: https://www.biorxiv.org/content/10.64898/2026.05.12.724488v1.abstract
+- authors: Park Y, Cha Y, Kim H, Kim Y, Woo JH, Cho H, Mashour GA, Xu T, Lee U, Hong SJ, Honey CJ, Moon JY
+  year: '2025'
+  title: Sub-second fluctuation between top-down and bottom-up modes distinguishes diverse human brain states
+  journal: Current Biology
+  note: in press
+  tags: [networks]
+  links:
+  - text: PMC
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11952419/
   - text: PDF
     url: pdfs/park_etal_moon_preprint_2025.pdf
 - authors: Tomita TM, Barense MD, Honey CJ
