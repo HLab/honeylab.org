@@ -68,7 +68,10 @@ description: Honey Lab publications - research papers on brain connectivity, tem
             </text>
           </g>
         </svg>
-        {% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}
+        {% comment %} Entries with an explicit `date` are ordered by it (newest first); the rest fall back to year order. {% endcomment %}
+        {% assign dated_pubs = site.data.publications | where_exp: "pub", "pub.date" | sort: "date" | reverse %}
+        {% assign undated_pubs = site.data.publications | where_exp: "pub", "pub.date == nil" | sort: "year" | reverse %}
+        {% assign sorted_pubs = dated_pubs | concat: undated_pubs %}
         <ul class="pub-list">
             {% for pub in sorted_pubs %}
                 {% include publication-entry.html pub=pub %}

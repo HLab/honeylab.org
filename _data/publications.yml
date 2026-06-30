@@ -1,5 +1,6 @@
-- authors: Kressin Palacios G, Bellana B, Honey CJ
+- authors: Kressin Palacios G, Ouyang T, Bellana B, Honey CJ
   year: '2026'
+  date: '2026-06-01'
   status: preprint
   title: Origin and Control of Persistent Mental Content
   journal: PsyArXiv
@@ -11,6 +12,7 @@
     url: pdfs/kressin-palacios_etal_honey_preprint_2026.pdf
 - authors: Zhang M, Liu PR, Su H, Zhao M, Li X, Born S, Lee Y, Honey CJ, Chen J, Lee H
   year: '2026'
+  date: '2026-05-12'
   status: preprint
   title: An fMRI dataset of verbalized spontaneous thought with annotated transcripts and self-report trait measures
   tags: [momentum, memory-aging]
@@ -19,6 +21,7 @@
     url: https://www.biorxiv.org/content/10.64898/2026.05.12.724488v1.abstract
 - authors: Park Y, Cha Y, Kim H, Kim Y, Woo JH, Cho H, Mashour GA, Xu T, Lee U, Hong SJ, Honey CJ, Moon JY
   year: '2026'
+  date: '2026-03-01'
   title: Sub-second fluctuation between top-down and bottom-up modes distinguishes diverse human brain states
   journal: Current Biology
   note: in press
