@@ -10,6 +10,10 @@ vendor/
 pyproject.toml
 uv.lock
 
+# Build scripts and source data (local only, not part of the published site)
+scripts/
+assets/data/
+
 # Scratch / prototypes
 temp/
 prototype-*.html
