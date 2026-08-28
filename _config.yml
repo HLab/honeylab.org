@@ -26,6 +26,7 @@ exclude:
   - "*.py"
   - "prototype-*.html"
   - temp
+  - server-upload
 
 # Keep these directories in _site without processing
 keep_files:
@@ -42,5 +43,9 @@ defaults:
       layout: page
   - scope:
       path: "pdfs"
+    values:
+      sitemap: false
+  - scope:
+      path: "mmb2026"
     values:
       sitemap: false

@@ -39,3 +39,6 @@ Thumbs.db
 .idea/
 .vscode/
 *.sublime-workspace
+
+# Staging folder for files to copy into the site (not part of the site itself)
+server-upload/
