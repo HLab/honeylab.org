@@ -1,3 +1,17 @@
+- authors: Li X, Lee H, Honey CJ
+  year: '2026'
+  date: '2026-09-10'
+  status: preprint
+  title: Cortical and Hippocampal Pathways to Mental Continuity
+  journal: bioRxiv
+  tags: [momentum, memory-aging]
+  links:
+  - text: bioRxiv
+    url: https://www.biorxiv.org/content/10.64898/2026.09.04.749493v1
+  - text: PDF
+    url: pdfs/li_lee_honey_preprint_2026.pdf
+  - text: supplement
+    url: pdfs/li_lee_honey_preprint_2026_supplemental_material.pdf
 - authors: Kressin Palacios G, Ouyang T, Bellana B, Honey CJ
   year: '2026'
   date: '2026-06-01'
