@@ -12,7 +12,7 @@ so that the feature table can be edited in one place and everything downstream
 follows.
 
     import digitmodels as dm
-    df  = dm.load_ratings()                 # class CSV (local file, frozen copy, or live server)
+    df  = dm.load_ratings()                 # class CSV (local file, else the fixed copy on honeylab.org)
     M   = dm.rating_matrix(df)              # 10 x 10 mean ratings, NaN on the diagonal
     ctx = dm.Context(dm.DEFAULT_FEATURES)   # feature table -> distances and set counts
     fit = dm.fit(dm.MODELS["tversky"], M, ctx)
@@ -41,8 +41,8 @@ DIGITS = np.arange(10)
 SCALE_MIN, SCALE_MAX = 1, 7
 STRATEGIES = ("magnitude", "arithmetic", "shape", "mixed")
 
-FROZEN_URL = "https://www.honeylab.org/mmb2026/data/digit-similarity-2026.csv"
-LIVE_URL = "https://mmb.honeylab.org/export.csv"
+FROZEN_URL = "https://www.honeylab.org/mmb2026/data/digit-similarity-2026.csv"   # the class CSV, copied up once
+LIVE_URL = "https://mmb.honeylab.org/export.csv"        # the intake server; only read if asked for explicitly
 COLUMNS = ["name", "trial", "a", "b", "rating", "rt_ms", "ts", "strategy"]
 
 # ------------------------------------------------------------------ features --
@@ -207,14 +207,15 @@ def load_ratings(source: str | os.PathLike | None = None, since: str | None = No
     """Load the class ratings as a DataFrame with the eight CSV columns.
 
     source: a path, a URL, or None. None tries, in order: the MMB_RATINGS
-    environment variable, ./ratings.csv, the frozen copy on honeylab.org, and
-    the live server. since="YYYY-MM-DD" drops rows stamped before that UTC
-    date, which is how to exclude test runs made before class.
+    environment variable, ./ratings.csv, then the fixed copy of the class CSV
+    on honeylab.org (which is what Colab uses). The live intake server is
+    never read unless passed as the source. since="YYYY-MM-DD" drops rows
+    stamped before that UTC date.
     """
     if source is None:
         env = os.environ.get("MMB_RATINGS")
         candidates = [env] if env else []
-        candidates += [Path("ratings.csv"), FROZEN_URL, LIVE_URL]
+        candidates += [Path("ratings.csv"), FROZEN_URL]
         errors = []
         for cand in candidates:
             try:
