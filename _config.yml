@@ -23,7 +23,6 @@ exclude:
   - CHANGELOG.md
   - updraft-backup
   - scripts
-  - "*.py"
   - "prototype-*.html"
   - temp
   - server-upload
