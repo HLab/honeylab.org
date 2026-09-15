@@ -940,7 +940,7 @@ def plot_matrix(M: np.ndarray, ax=None, title: str = "", vmin=SCALE_MIN, vmax=SC
     ax = ax or plt.gca()
     im = ax.imshow(M, vmin=vmin, vmax=vmax, cmap=cmap)
     ax.set_xticks(DIGITS); ax.set_yticks(DIGITS)
-    ax.set_xlabel("referent  b"); ax.set_ylabel("subject  a")
+    ax.set_xlabel("referent digit b (named second)"); ax.set_ylabel("standard digit  a (named first)")
     ax.set_title(title)
     return im
 
