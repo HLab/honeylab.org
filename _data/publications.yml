@@ -26,15 +26,17 @@
     url: pdfs/kressin-palacios_etal_honey_preprint_2026.pdf
 - authors: Zhang M, Liu PR, Su H, Zhao M, Li X, Born S, Lee Y, Honey CJ, Chen J, Lee H
   year: '2026'
-  date: '2026-05-12'
-  status: preprint
+  date: '2026-09-29'
   title: An fMRI dataset of verbalized spontaneous thought with annotated transcripts and self-report trait measures
+  journal: Scientific Data
   tags: [momentum, memory-aging]
   links:
-  - text: bioRxiv
+  - text: journal
+    url: https://doi.org/10.1038/s41597-026-08414-6
+  - text: preprint
     url: https://www.biorxiv.org/content/10.64898/2026.05.12.724488v1.abstract
   - text: PDF
-    url: pdfs/zhang_etal_lee_preprint_2026.pdf
+    url: pdfs/zhang_etal_lee_scidata_2026.pdf
 - authors: Park Y, Cha Y, Kim H, Kim Y, Woo JH, Lee J, Cho H, Mashour GA, Xu T, Lee U, Hong SJ, Honey CJ, Moon JY
   year: '2026'
   date: '2026-07-02'
